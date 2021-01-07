@@ -1,0 +1,5 @@
+pydicom
+pynetdicom
+requests
+json
+os

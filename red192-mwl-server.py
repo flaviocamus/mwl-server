@@ -117,4 +117,4 @@ ae.add_supported_context(StudyRootQueryRetrieveInformationModelFind)
 ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
-ae.start_server(('', 11112), evt_handlers=handlers)
+ae.start_server(('', 5000), evt_handlers=handlers)

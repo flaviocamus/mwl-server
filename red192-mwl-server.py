@@ -17,7 +17,7 @@ def handle_echo(event):
     """Handle a C-ECHO request event."""
     print("C-ECHO received")
     ei=event.action_information
-    print(type(ei))
+    #print(type(ei))
     for elem in ei:
         print(elem)
     return 0x0000
@@ -25,15 +25,15 @@ def handle_echo(event):
 
 # Implement the handler for evt.EVT_C_FIND
 def handle_find(event):
-    print("cfind fired")
+    #print("cfind fired")
     #    """Handle a C-FIND request event."""
     ds = event.identifier
-    print("Query:")
+    #print("Query:")
     for elem in ds:
         print(elem)
 
     if 'QueryRetrieveLevel' not in ds:
-        print("fail!")
+        #print("fail!")
         # Failure
         yield 0xC000, None
         return
@@ -47,17 +47,17 @@ def handle_find(event):
                 ]
     #====================================================================================
     if ds.QueryRetrieveLevel == 'STUDY':
-        print("context=Study")
+        #print("context=Study")
         identifier = Dataset()
         identifier.PatientName ='DUMMY'
         identifier.QueryRetrieveLevel = ds.QueryRetrieveLevel
         yield (0xFF00, identifier)
     #====================================================================================
     if ds.QueryRetrieveLevel == 'WORKLIST':
-        print("context=worklist")
+        #print("context=worklist")
         #posible keys
-        print("modality: ["+str(ds.Modality)+"]")
-        print("studyDate: ["+str(ds.StudyDate)+"]")
+        #print("modality: ["+str(ds.Modality)+"]")
+        #print("studyDate: ["+str(ds.StudyDate)+"]")
         #print("StudyDesciption: "+str(ds.StudyDesciption))
         # TODO 
         # Procesador del query
@@ -75,7 +75,7 @@ def handle_find(event):
             #--conditionals
             
             if st['mod'] == ds.Modality and st['fecha']==now.strftime("%Y-%m-%d"):
-                print("biuld...")
+                #print("biuld...")
                 #print(str(st['fecha']))
                 identifier = Dataset()
                 identifier.QueryRetrieveLevel = ds.QueryRetrieveLevel
@@ -98,8 +98,8 @@ def readdb():
 
 #Program
 DB=readdb()
-print(str(len(DB))+" studios en db")
-print(DB[0])
+#print(str(len(DB))+" studios en db")
+#print(DB[0])
 
 #print("iniciar web interface")
 #call(["python.exe",'webinterface.py'])
@@ -117,4 +117,5 @@ ae.add_supported_context(StudyRootQueryRetrieveInformationModelFind)
 ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
+#print("starting server")
 ae.start_server(('', 5000), evt_handlers=handlers)

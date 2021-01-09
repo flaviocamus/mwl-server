@@ -1,0 +1,1 @@
+worker: python red192-mwl-server.py

@@ -4,7 +4,7 @@ r="y"
 context=["STUDY","WORKLIST"]
 modality=['US','CT','MR']
 host = 'r192-mwl-server.herokuapp.com'
-port = 80
+port = process.env.PORT
 print("requiere Offis dicomtoolkit : https://dicom.offis.de/dcmtk.php.en ")
 
 while r=="y":

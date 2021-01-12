@@ -118,4 +118,4 @@ ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
 #print("starting server")
-ae.start_server(('', 5000), evt_handlers=handlers)
+ae.start_server(('', process.env.PORT), evt_handlers=handlers)

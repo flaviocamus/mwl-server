@@ -10,6 +10,8 @@ from pynetdicom.sop_class import PatientRootQueryRetrieveInformationModelFind,St
 import datetime 
 import requests
 import json
+
+#Sfrom flask import Flask
 #from subprocess import call
 
 #echo
@@ -25,7 +27,7 @@ def handle_echo(event):
 
 # Implement the handler for evt.EVT_C_FIND
 def handle_find(event):
-    #print("cfind fired")
+    print("cfind fired")
     #    """Handle a C-FIND request event."""
     ds = event.identifier
     #print("Query:")
@@ -117,5 +119,14 @@ ae.add_supported_context(StudyRootQueryRetrieveInformationModelFind)
 ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
-#print("starting server")
-ae.start_server(('', process.env.PORT), evt_handlers=handlers)
+#get heroku port:
+dicom_port = int(os.environ.get("PORT", 11112))
+
+print("starting server on port:"+str(dicom_port))
+ae.start_server(('', dicom_port), evt_handlers=handlers)
+
+#init web interface
+#app = Flask(__name__)
+#if __name__ == '__main__':
+#	#app.run(debug=True)
+#	app.run(host="0.0.0.0", debug=True, port=11113)

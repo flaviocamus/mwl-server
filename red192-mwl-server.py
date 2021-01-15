@@ -13,6 +13,11 @@ import json
 
 #Sfrom flask import Flask
 #from subprocess import call
+#configuration 
+from conf  import read_configuration
+
+CONF=read_configuration()
+print(CONF)
 
 #echo
 def handle_echo(event):
@@ -119,11 +124,11 @@ ae.add_supported_context(StudyRootQueryRetrieveInformationModelFind)
 ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
-#get heroku port:
-dicom_port = int(os.environ.get("PORT", 11112))
+#get heroku port:S
+dicom_port = int(os.environ.get("PORT", CONF["port"] ))
 
-print("starting server on port:"+str(dicom_port))
-ae.start_server(('', dicom_port), evt_handlers=handlers)
+print("starting server "+ CONF['AEtitle']+" on port:"+str(dicom_port))
+ae.start_server((CONF["ip"], dicom_port), evt_handlers=handlers,ae_title=CONF['AEtitle'])
 
 #init web interface
 #app = Flask(__name__)

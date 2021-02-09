@@ -2,28 +2,28 @@
       "data": {
             "getEvents": [
                   {
-                        "_id": "5fd2e2589986dd002a365780",
+                        "_id": "5fdbd054f3ad1f002af09689",
                         "tenantID": "5f9870377f9c2ca34fc7d98f",
                         "centersID": [
                               "5fadab96e78234272bcc9f2e"
                         ],
                         "isImported": false,
-                        "internal_number": "35",
-                        "accession_number": "2361036757721460",
-                        "uuid": "5WKO8U3qZkhV6Qgz1lDAS",
-                        "altern_uuid": "nFbdrw7VPrE9qPs2PpaTM",
+                        "internal_number": "53",
+                        "accession_number": "1054785681562759",
+                        "uuid": "hEf1QqEvDDv7uY-vpOKMM",
+                        "altern_uuid": "aZdOWPP_EGLP9owboxAZU",
                         "external_uuid": null,
                         "patient_type": [
                               "outPatient"
                         ],
-                        "date": "1610964900000",
+                        "date": "1610964000000",
                         "date_string": "18-01-2021",
                         "time": null,
-                        "time_string": "10:15",
-                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "time_string": "10:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
                         "patient_doc_id": "16029256-3",
                         "referring_professionalID": [
-                              "5f90ef0f4e4557386eba8849"
+                              "5f99b8be06b66b6800a38168"
                         ],
                         "appointment_types": [
                               "center"
@@ -43,181 +43,7 @@
                         "proceduresID": [
                               "5f9842602f6e7d6b2f377dae"
                         ],
-                        "appointment_reason": "dolor de muelas",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd2e2929986dd002a365785",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "36",
-                        "accession_number": "1161630516698931",
-                        "uuid": "9XAwCG8WDy0fJ-B4E_gVa",
-                        "altern_uuid": "ORA7G2zr5r300HCzh80rS",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1609756200000",
-                        "date_string": "04-01-2021",
-                        "time": null,
-                        "time_string": "10:30",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [
-                              "5f90ef0f4e4557386eba8849"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "Dolor de orejas",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd2e35b9986dd002a36578c",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "37",
-                        "accession_number": "6500651522512171",
-                        "uuid": "FPJdIcwp6pqxJOFfTv3Y7",
-                        "altern_uuid": "2KyC1Nut4TdH8nL7Sz1bN",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1610360100000",
-                        "date_string": "11-01-2021",
-                        "time": null,
-                        "time_string": "10:15",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [
-                              "5f90ef3d4e4557386eba884a"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f982e8c07777b5608c2895e"
-                        ],
-                        "appointment_reason": "dolor de dientes",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd39b99b1fa6b002a385dde",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadaaffe78234272bcc9f2d"
-                        ],
-                        "isImported": false,
-                        "internal_number": "38",
-                        "accession_number": "4388910600815318",
-                        "uuid": "VgS5b_OTo_TifjJBtQ7zc",
-                        "altern_uuid": "Ah_cEg6Tlmv2WgePBk_FA",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1610974800000",
-                        "date_string": "18-01-2021",
-                        "time": null,
-                        "time_string": "13:00",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [
-                              "5f90eebc4e4557386eba8847"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5fa999d0a0952f24c8e51833"
-                        ],
-                        "proceduresID": [
-                              "5fa995dfa0952f24c8e5182c"
-                        ],
-                        "appointment_reason": "dolor abdominal",
+                        "appointment_reason": "lrl",
                         "reception_comment": null,
                         "log": [
                               {
@@ -274,6 +100,64 @@
                               "5fa99686a0952f24c8e5182e"
                         ],
                         "appointment_reason": "lklsdk",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd2e2589986dd002a365780",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "35",
+                        "accession_number": "2361036757721460",
+                        "uuid": "5WKO8U3qZkhV6Qgz1lDAS",
+                        "altern_uuid": "nFbdrw7VPrE9qPs2PpaTM",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1610964900000",
+                        "date_string": "18-01-2021",
+                        "time": null,
+                        "time_string": "10:15",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "5f90ef0f4e4557386eba8849"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "dolor de muelas",
                         "reception_comment": null,
                         "log": [
                               {
@@ -348,6 +232,176 @@
                         "created_by": null
                   },
                   {
+                        "_id": "5fd4e75af56962002a88ed4a",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "44",
+                        "accession_number": "7100290491009331",
+                        "uuid": "lNjcTQvZNKbFbehsGYDUr",
+                        "altern_uuid": "xzNVq2pLJXtNhwYHJ-8NU",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1611590400000",
+                        "date_string": "25-01-2021",
+                        "time": null,
+                        "time_string": "16:00",
+                        "personID": "5f56bb0423aa0579d3dc6249",
+                        "patient_doc_id": "25553351-7",
+                        "referring_professionalID": [
+                              "5f90ee5c4e4557386eba8846"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5fa999d0a0952f24c8e51833"
+                        ],
+                        "proceduresID": [
+                              "5fa9963ba0952f24c8e5182d"
+                        ],
+                        "appointment_reason": "dolor",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd913d1e3c7214a8e6d1cf6",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "52",
+                        "accession_number": "8935657503345522",
+                        "uuid": "DMlW5vUo4WRI63UeTAlky",
+                        "altern_uuid": "wRQ2a2Q1Vwb5h9aolSnvx",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1611584100000",
+                        "date_string": "25-01-2021",
+                        "time": null,
+                        "time_string": "11:15",
+                        "personID": "5f56bb0423aa0579d3dc6249",
+                        "patient_doc_id": "25553351-7",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f982e8c07777b5608c2895e"
+                        ],
+                        "appointment_reason": "control",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd7cf0595e4c5002a0eee86",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "51",
+                        "accession_number": "7806882264173144",
+                        "uuid": "NfQY4aES6pcb_i0WA82TS",
+                        "altern_uuid": "mZdlggHqU2JhLmQ8dFQYe",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1612779300000",
+                        "date_string": "08-02-2021",
+                        "time": null,
+                        "time_string": "10:15",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "f",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
                         "_id": "5fd39d30b1fa6b002a385df3",
                         "tenantID": "5f9870377f9c2ca34fc7d98f",
                         "centersID": [
@@ -388,6 +442,518 @@
                               "5f982e8c07777b5608c2895e"
                         ],
                         "appointment_reason": "kjfjdf",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd39b99b1fa6b002a385dde",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "38",
+                        "accession_number": "4388910600815318",
+                        "uuid": "VgS5b_OTo_TifjJBtQ7zc",
+                        "altern_uuid": "Ah_cEg6Tlmv2WgePBk_FA",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1610974800000",
+                        "date_string": "18-01-2021",
+                        "time": null,
+                        "time_string": "13:00",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "5f90eebc4e4557386eba8847"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5fa999d0a0952f24c8e51833"
+                        ],
+                        "proceduresID": [
+                              "5fa995dfa0952f24c8e5182c"
+                        ],
+                        "appointment_reason": "dolor abdominal",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd2e2929986dd002a365785",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "36",
+                        "accession_number": "1161630516698931",
+                        "uuid": "9XAwCG8WDy0fJ-B4E_gVa",
+                        "altern_uuid": "ORA7G2zr5r300HCzh80rS",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1609756200000",
+                        "date_string": "04-01-2021",
+                        "time": null,
+                        "time_string": "10:30",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "5f90ef0f4e4557386eba8849"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "Dolor de orejas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd79b91aa0f4f002ab618e5",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "45",
+                        "accession_number": "0324405725651386",
+                        "uuid": "c1w5tmnBNuYMA_miQJlux",
+                        "altern_uuid": "zML45tD_uPTfFLqB6sGhg",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1608555600000",
+                        "date_string": "21-12-2020",
+                        "time": null,
+                        "time_string": "13:00",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5fa999d0a0952f24c8e51833"
+                        ],
+                        "proceduresID": [
+                              "5fa99686a0952f24c8e5182e"
+                        ],
+                        "appointment_reason": "Achaques varios\n",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd7c68595e4c5002a0eee52",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5f98638ecfcf5b94c883c55b"
+                        ],
+                        "isImported": false,
+                        "internal_number": "46",
+                        "accession_number": "7374424635267448",
+                        "uuid": "kCzA3X9rkTJ-eZxDBHJtG",
+                        "altern_uuid": "gh-uM7hePO9mdiPzbombL",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1609783200000",
+                        "date_string": "04-01-2021",
+                        "time": null,
+                        "time_string": "18:00",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa99725a0952f24c8e5182f"
+                        ],
+                        "appointment_reason": "d",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd7cc2e95e4c5002a0eee5c",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "48",
+                        "accession_number": "3197933591292655",
+                        "uuid": "HYoU1iPkFbcJNP_q-T6sX",
+                        "altern_uuid": "MWhSsa9CDrhrqNLL32eSz",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1608544800000",
+                        "date_string": "21-12-2020",
+                        "time": null,
+                        "time_string": "10:00",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "f",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd7cd7095e4c5002a0eee7b",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "50",
+                        "accession_number": "3204575016755921",
+                        "uuid": "unD6hbNKHmuqNGUE8hKw0",
+                        "altern_uuid": "AndyQjGnrIP3JOzPg5vbp",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1609754400000",
+                        "date_string": "04-01-2021",
+                        "time": null,
+                        "time_string": "10:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": " c",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd2e35b9986dd002a36578c",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "37",
+                        "accession_number": "6500651522512171",
+                        "uuid": "FPJdIcwp6pqxJOFfTv3Y7",
+                        "altern_uuid": "2KyC1Nut4TdH8nL7Sz1bN",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1610360100000",
+                        "date_string": "11-01-2021",
+                        "time": null,
+                        "time_string": "10:15",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "5f90ef3d4e4557386eba884a"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f982e8c07777b5608c2895e"
+                        ],
+                        "appointment_reason": "dolor de dientes",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fd7cd5b95e4c5002a0eee6a",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "49",
+                        "accession_number": "1511657267234463",
+                        "uuid": "Rj5O9_p7rxFHyFh9ZGqPL",
+                        "altern_uuid": "7rBYegzgoz4TMwZ_tOcNv",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1608545700000",
+                        "date_string": "21-12-2020",
+                        "time": null,
+                        "time_string": "10:15",
+                        "personID": "5f56b68c23aa0579d3dc6248",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "f",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "5fdf6bac8ea577002a63812a",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadab96e78234272bcc9f2e"
+                        ],
+                        "isImported": false,
+                        "internal_number": "54",
+                        "accession_number": "2107864330411036",
+                        "uuid": "IuecyltuF9nfBCwse2_HB",
+                        "altern_uuid": "5A_uwKlHXKHFVGKFpGKB2",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1610362800000",
+                        "date_string": "11-01-2021",
+                        "time": null,
+                        "time_string": "11:00",
+                        "personID": "5f56bb0423aa0579d3dc6249",
+                        "patient_doc_id": "25553351-7",
+                        "referring_professionalID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "5f99b8be06b66b6800a38168"
+                        ],
+                        "specialitiesID": [
+                              "5f9842cf2f6e7d6b2f377db0"
+                        ],
+                        "proceduresID": [
+                              "5f9842602f6e7d6b2f377dae"
+                        ],
+                        "appointment_reason": "control",
                         "reception_comment": null,
                         "log": [
                               {
@@ -520,176 +1086,6 @@
                         "created_by": null
                   },
                   {
-                        "_id": "5fd4e75af56962002a88ed4a",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadaaffe78234272bcc9f2d"
-                        ],
-                        "isImported": false,
-                        "internal_number": "44",
-                        "accession_number": "7100290491009331",
-                        "uuid": "lNjcTQvZNKbFbehsGYDUr",
-                        "altern_uuid": "xzNVq2pLJXtNhwYHJ-8NU",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1611590400000",
-                        "date_string": "25-01-2021",
-                        "time": null,
-                        "time_string": "16:00",
-                        "personID": "5f56bb0423aa0579d3dc6249",
-                        "patient_doc_id": "25553351-7",
-                        "referring_professionalID": [
-                              "5f90ee5c4e4557386eba8846"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5fa999d0a0952f24c8e51833"
-                        ],
-                        "proceduresID": [
-                              "5fa9963ba0952f24c8e5182d"
-                        ],
-                        "appointment_reason": "dolor",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd79b91aa0f4f002ab618e5",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadaaffe78234272bcc9f2d"
-                        ],
-                        "isImported": false,
-                        "internal_number": "45",
-                        "accession_number": "0324405725651386",
-                        "uuid": "c1w5tmnBNuYMA_miQJlux",
-                        "altern_uuid": "zML45tD_uPTfFLqB6sGhg",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1608555600000",
-                        "date_string": "21-12-2020",
-                        "time": null,
-                        "time_string": "13:00",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5fa999d0a0952f24c8e51833"
-                        ],
-                        "proceduresID": [
-                              "5fa99686a0952f24c8e5182e"
-                        ],
-                        "appointment_reason": "Achaques varios\n",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd7c68595e4c5002a0eee52",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5f98638ecfcf5b94c883c55b"
-                        ],
-                        "isImported": false,
-                        "internal_number": "46",
-                        "accession_number": "7374424635267448",
-                        "uuid": "kCzA3X9rkTJ-eZxDBHJtG",
-                        "altern_uuid": "gh-uM7hePO9mdiPzbombL",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1609783200000",
-                        "date_string": "04-01-2021",
-                        "time": null,
-                        "time_string": "18:00",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5fa99aa0a0952f24c8e51834"
-                        ],
-                        "proceduresID": [
-                              "5fa99725a0952f24c8e5182f"
-                        ],
-                        "appointment_reason": "d",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
                         "_id": "5fd7c6ee95e4c5002a0eee57",
                         "tenantID": "5f9870377f9c2ca34fc7d98f",
                         "centersID": [
@@ -730,402 +1126,6 @@
                               "5fa99725a0952f24c8e5182f"
                         ],
                         "appointment_reason": "cx",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd7cc2e95e4c5002a0eee5c",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "48",
-                        "accession_number": "3197933591292655",
-                        "uuid": "HYoU1iPkFbcJNP_q-T6sX",
-                        "altern_uuid": "MWhSsa9CDrhrqNLL32eSz",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1608544800000",
-                        "date_string": "21-12-2020",
-                        "time": null,
-                        "time_string": "10:00",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "f",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd7cd5b95e4c5002a0eee6a",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "49",
-                        "accession_number": "1511657267234463",
-                        "uuid": "Rj5O9_p7rxFHyFh9ZGqPL",
-                        "altern_uuid": "7rBYegzgoz4TMwZ_tOcNv",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1608545700000",
-                        "date_string": "21-12-2020",
-                        "time": null,
-                        "time_string": "10:15",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "f",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd7cd7095e4c5002a0eee7b",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "50",
-                        "accession_number": "3204575016755921",
-                        "uuid": "unD6hbNKHmuqNGUE8hKw0",
-                        "altern_uuid": "AndyQjGnrIP3JOzPg5vbp",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1609754400000",
-                        "date_string": "04-01-2021",
-                        "time": null,
-                        "time_string": "10:00",
-                        "personID": "600f1bb5c1f13d29b8deaa92",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": " c",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd7cf0595e4c5002a0eee86",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "51",
-                        "accession_number": "7806882264173144",
-                        "uuid": "NfQY4aES6pcb_i0WA82TS",
-                        "altern_uuid": "mZdlggHqU2JhLmQ8dFQYe",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1612779300000",
-                        "date_string": "08-02-2021",
-                        "time": null,
-                        "time_string": "10:15",
-                        "personID": "5f56b68c23aa0579d3dc6248",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "f",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fd913d1e3c7214a8e6d1cf6",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "52",
-                        "accession_number": "8935657503345522",
-                        "uuid": "DMlW5vUo4WRI63UeTAlky",
-                        "altern_uuid": "wRQ2a2Q1Vwb5h9aolSnvx",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1611584100000",
-                        "date_string": "25-01-2021",
-                        "time": null,
-                        "time_string": "11:15",
-                        "personID": "5f56bb0423aa0579d3dc6249",
-                        "patient_doc_id": "25553351-7",
-                        "referring_professionalID": [],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f982e8c07777b5608c2895e"
-                        ],
-                        "appointment_reason": "control",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fdbd054f3ad1f002af09689",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "53",
-                        "accession_number": "1054785681562759",
-                        "uuid": "hEf1QqEvDDv7uY-vpOKMM",
-                        "altern_uuid": "aZdOWPP_EGLP9owboxAZU",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1610964000000",
-                        "date_string": "18-01-2021",
-                        "time": null,
-                        "time_string": "10:00",
-                        "personID": "600f1bb5c1f13d29b8deaa92",
-                        "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "lrl",
-                        "reception_comment": null,
-                        "log": [
-                              {
-                                    "date": null,
-                                    "time": null,
-                                    "action_type": null,
-                                    "detail": null,
-                                    "prev_data": null,
-                                    "new_data": null,
-                                    "user": null
-                              }
-                        ],
-                        "created_at": null,
-                        "created_by": null
-                  },
-                  {
-                        "_id": "5fdf6bac8ea577002a63812a",
-                        "tenantID": "5f9870377f9c2ca34fc7d98f",
-                        "centersID": [
-                              "5fadab96e78234272bcc9f2e"
-                        ],
-                        "isImported": false,
-                        "internal_number": "54",
-                        "accession_number": "2107864330411036",
-                        "uuid": "IuecyltuF9nfBCwse2_HB",
-                        "altern_uuid": "5A_uwKlHXKHFVGKFpGKB2",
-                        "external_uuid": null,
-                        "patient_type": [
-                              "outPatient"
-                        ],
-                        "date": "1610362800000",
-                        "date_string": "11-01-2021",
-                        "time": null,
-                        "time_string": "11:00",
-                        "personID": "5f56bb0423aa0579d3dc6249",
-                        "patient_doc_id": "25553351-7",
-                        "referring_professionalID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "appointment_types": [
-                              "center"
-                        ],
-                        "status": "created",
-                        "payment_status": "unpaid",
-                        "resource_types": [
-                              "resource"
-                        ],
-                        "active": "true",
-                        "professionalsID": [
-                              "5f99b8be06b66b6800a38168"
-                        ],
-                        "specialitiesID": [
-                              "5f9842cf2f6e7d6b2f377db0"
-                        ],
-                        "proceduresID": [
-                              "5f9842602f6e7d6b2f377dae"
-                        ],
-                        "appointment_reason": "control",
                         "reception_comment": null,
                         "log": [
                               {

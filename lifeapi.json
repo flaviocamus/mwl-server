@@ -1096,17 +1096,19 @@
                         "accession_number": "9228939329061016",
                         "uuid": "8RU45jIvf2fZJdMFjflrr",
                         "altern_uuid": "m8Btre4_6h11Jf1aLV9xy",
-                        "external_uuid": null,
+                        "external_uuid": "",
                         "patient_type": [
                               "outPatient"
                         ],
-                        "date": "1609784100000",
+                        "date": "1617246000000",
                         "date_string": "04-01-2021",
                         "time": null,
                         "time_string": "18:15",
                         "personID": "5f56b68c23aa0579d3dc6248",
                         "patient_doc_id": "16029256-3",
-                        "referring_professionalID": [],
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
                         "appointment_types": [
                               "center"
                         ],
@@ -1120,12 +1122,1121 @@
                               "5f99b8be06b66b6800a38168"
                         ],
                         "specialitiesID": [
-                              "5fa99aa0a0952f24c8e51834"
+                              "5f9842cf2f6e7d6b2f377db0"
                         ],
                         "proceduresID": [
                               "5fa99725a0952f24c8e5182f"
                         ],
-                        "appointment_reason": "cx",
+                        "appointment_reason": "Dolor estomacal",
+                        "reception_comment": "VIP Patient",
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              },
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "6025d78cf11a9d002adf6770",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "55",
+                        "accession_number": "5819957419609322",
+                        "uuid": "OIB-EQpISaxnxDQlb5555",
+                        "altern_uuid": "Yuwpo9R3rzKMvDiGr4_4z",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613469600000",
+                        "date_string": "16-02-2021",
+                        "time": null,
+                        "time_string": "10:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "6019c6fa847d7604582bd2f9"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "6025d9f2f11a9d002adf677c",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "56",
+                        "accession_number": "9395061825566995",
+                        "uuid": "gxZvUBBjKEVRy18F9YpFZ",
+                        "altern_uuid": "_8SSQSxs7pYAjmMJKyd4N",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613977200000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "7:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "6019c6fa847d7604582bd2f9"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "6025da1df11a9d002adf6781",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "57",
+                        "accession_number": "9029469270622902",
+                        "uuid": "gG1whJj78UAIYelbXa9wR",
+                        "altern_uuid": "8E9VfF-A0Iqp1-NiPZ6fP",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613980800000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "8:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60273d0916ae34002a44ccff",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "58",
+                        "accession_number": "7644552249665264",
+                        "uuid": "avS113-JTssMgU2ZNsRzt",
+                        "altern_uuid": "AlK0Ss2JW1fcSYIVK39qn",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613674800000",
+                        "date_string": "18-02-2021",
+                        "time": null,
+                        "time_string": "19:00",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor abdominal",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "602746a016ae34002a44cd38",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "59",
+                        "accession_number": "0398887933149100",
+                        "uuid": "Vw_EEVaaBpBvtnmdQXWTx",
+                        "altern_uuid": "ZoqNyzyPDLZBWBpIgZ2RA",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614506400000",
+                        "date_string": "28-02-2021",
+                        "time": null,
+                        "time_string": "10:00",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274934ddcaa5002a037c86",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "60",
+                        "accession_number": "5018718009226945",
+                        "uuid": "ijFbisItCjP9qkU_51QHw",
+                        "altern_uuid": "vOXHnY9Vf2SiRKO8dAsCE",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614507900000",
+                        "date_string": "28-02-2021",
+                        "time": null,
+                        "time_string": "10:25",
+                        "personID": "600f1bb5c1f13d29b8deaa92",
+                        "patient_doc_id": "16029256-3",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "602749b7ddcaa5002a037c8d",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "61",
+                        "accession_number": "9024514265930841",
+                        "uuid": "UFk-52Rk8HpcwQkd6YZ6D",
+                        "altern_uuid": "olSkuhV7VvT3qwuLV95p4",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613378700000",
+                        "date_string": "15-02-2021",
+                        "time": null,
+                        "time_string": "8:45",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274a5eddcaa5002a037c94",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "62",
+                        "accession_number": "7231134358254053",
+                        "uuid": "cEQ9YggI7MRm8ywbtZsfI",
+                        "altern_uuid": "UMI9iFvcqdKojdUk5P6pH",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613474100000",
+                        "date_string": "16-02-2021",
+                        "time": null,
+                        "time_string": "11:15",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274cd4ddcaa5002a037c9b",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "63",
+                        "accession_number": "5173949121390711",
+                        "uuid": "5hsdVJSWecVyYaNgewe-D",
+                        "altern_uuid": "15F0NCaZNwoR6SGFJvpmO",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613997900000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "12:45",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274d07ddcaa5002a037ca6",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "64",
+                        "accession_number": "5642190567276311",
+                        "uuid": "yxnFnHcwYpTp8zjwCCk3h",
+                        "altern_uuid": "q9cx24ziDRnvlAURFzirP",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613995200000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "12:00",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274d1bddcaa5002a037cab",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "65",
+                        "accession_number": "5573465710960049",
+                        "uuid": "uTjQ0Lc_zqakBhoKyQydq",
+                        "altern_uuid": "SyK6-SkgLMshd0m5fBz4_",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614784500000",
+                        "date_string": "03-03-2021",
+                        "time": null,
+                        "time_string": "15:15",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274e88ddcaa5002a037cb2",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "66",
+                        "accession_number": "9569326787564575",
+                        "uuid": "cLv4C0C61cEWLyxodqBRy",
+                        "altern_uuid": "A1P92gatBJmciIWooJgfJ",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614771000000",
+                        "date_string": "03-03-2021",
+                        "time": null,
+                        "time_string": "11:30",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60274eacddcaa5002a037cba",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "67",
+                        "accession_number": "4826003950368630",
+                        "uuid": "27c8f1ziU_7FoTgvQwG4-",
+                        "altern_uuid": "wqMNvOmLiY4gNRzbbcbdj",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614787200000",
+                        "date_string": "03-03-2021",
+                        "time": null,
+                        "time_string": "16:00",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "6027d9f081d3e7eb9fab5ea8",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "68",
+                        "accession_number": "5480266976948350",
+                        "uuid": "w2Qoifl4gA_KROn7OGoQj",
+                        "altern_uuid": "LN7La4UnKOCcgOhftx_nb",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614009600000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "13:00",
+                        "personID": "600a1f82b4d973002a7fba33",
+                        "patient_doc_id": "445645645",
+                        "referring_professionalID": [],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "prueba",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60296a169d1636002a46e1ba",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "69",
+                        "accession_number": "4552705783243761",
+                        "uuid": "FOe9qDe1LqZ_YlsU5YhTg",
+                        "altern_uuid": "jNpUwL9vRDGM0cjzuVrCX",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613979900000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "7:45",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60296af79d1636002a46e1c1",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "70",
+                        "accession_number": "9605728099878655",
+                        "uuid": "UJ3WfW0vmnBhVu0SCYoGO",
+                        "altern_uuid": "JMInjQeAd9sMUItMarLwA",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1613376900000",
+                        "date_string": "15-02-2021",
+                        "time": null,
+                        "time_string": "8:15",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60296e1f9d1636002a46e203",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "74656c656d65646963696e65"
+                        ],
+                        "isImported": false,
+                        "internal_number": "71",
+                        "accession_number": "2171553542400014",
+                        "uuid": "BX_sTGk2RBNiCAnVPnpAt",
+                        "altern_uuid": "Xyf3z6eqSjRdIKKwFfTkM",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614001500000",
+                        "date_string": "22-02-2021",
+                        "time": null,
+                        "time_string": "13:45",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "telemedicine"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60296f249d1636002a46e210",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "72",
+                        "accession_number": "4542811116824801",
+                        "uuid": "cfMyjcJkiF7m7o90Q9EIA",
+                        "altern_uuid": "kohcd0mMH588oy1ed-hZm",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614789900000",
+                        "date_string": "03-03-2021",
+                        "time": null,
+                        "time_string": "16:45",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
+                        "reception_comment": null,
+                        "log": [
+                              {
+                                    "date": null,
+                                    "time": null,
+                                    "action_type": null,
+                                    "detail": null,
+                                    "prev_data": null,
+                                    "new_data": null,
+                                    "user": null
+                              }
+                        ],
+                        "created_at": null,
+                        "created_by": null
+                  },
+                  {
+                        "_id": "60296fe69d1636002a46e217",
+                        "tenantID": "5f9870377f9c2ca34fc7d98f",
+                        "centersID": [
+                              "5fadaaffe78234272bcc9f2d"
+                        ],
+                        "isImported": false,
+                        "internal_number": "73",
+                        "accession_number": "6180792284342257",
+                        "uuid": "kIUO7M-hYnFlFym_MrTYP",
+                        "altern_uuid": "sPi8fIm2-nLSex43ClA7u",
+                        "external_uuid": null,
+                        "patient_type": [
+                              "outPatient"
+                        ],
+                        "date": "1614789000000",
+                        "date_string": "03-03-2021",
+                        "time": null,
+                        "time_string": "16:30",
+                        "personID": "600973c39e8114002a1599f3",
+                        "patient_doc_id": "345345343-2",
+                        "referring_professionalID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "appointment_types": [
+                              "center"
+                        ],
+                        "status": "created",
+                        "payment_status": "unpaid",
+                        "resource_types": [
+                              "resource"
+                        ],
+                        "active": "true",
+                        "professionalsID": [
+                              "6014656d7bc65399c257900d"
+                        ],
+                        "specialitiesID": [
+                              "5fa99aa0a0952f24c8e51834"
+                        ],
+                        "proceduresID": [
+                              "5fa9975ca0952f24c8e51830"
+                        ],
+                        "appointment_reason": "Dolor de Muelas",
                         "reception_comment": null,
                         "log": [
                               {

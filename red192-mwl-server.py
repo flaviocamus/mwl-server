@@ -10,12 +10,15 @@ from pynetdicom.sop_class import PatientRootQueryRetrieveInformationModelFind,St
 import datetime 
 import requests
 import json
+import sys 
+import mariadb
 
 #Sfrom flask import Flask
 #from subprocess import call
 #configuration 
 from conf  import read_configuration
 
+from lifeapi import load_mwl,mwl_dbquery
 CONF=read_configuration()
 print(CONF)
 
@@ -23,7 +26,7 @@ print(CONF)
 def handle_echo(event):
     """Handle a C-ECHO request event."""
     print("C-ECHO received")
-    ei=event.action_information
+    ei=event.assoc
     #print(type(ei))
     for elem in ei:
         print(elem)
@@ -33,6 +36,7 @@ def handle_echo(event):
 # Implement the handler for evt.EVT_C_FIND
 def handle_find(event):
     print("cfind fired")
+    print(str(event.assoc.requestor.ae_title))
     #    """Handle a C-FIND request event."""
     ds = event.identifier
     #print("Query:")
@@ -47,12 +51,14 @@ def handle_find(event):
     #===================================================================================
     #print(instances)
     if ds.QueryRetrieveLevel == 'PATIENT':
+        #@TODO yields no info  0xA900 - Identifier does not match SOP class
         if 'PatientName' in ds:
             if ds.PatientName not in ['*', '', '?']:
                 matching = [
                     inst for inst in instances if inst.PatientName == ds.PatientName
                 ]
     #====================================================================================
+    #@TODO yields no info  0xA900 - Identifier does not match SOP class
     if ds.QueryRetrieveLevel == 'STUDY':
         #print("context=Study")
         identifier = Dataset()
@@ -61,17 +67,18 @@ def handle_find(event):
         yield (0xFF00, identifier)
     #====================================================================================
     if ds.QueryRetrieveLevel == 'WORKLIST':
-        #print("context=worklist")
-        #posible keys
-        #print("modality: ["+str(ds.Modality)+"]")
-        #print("studyDate: ["+str(ds.StudyDate)+"]")
-        #print("StudyDesciption: "+str(ds.StudyDesciption))
         # TODO 
         # Procesador del query
         # generar un dataset menor cuando se procesan el query, recorriendo ese dataset y generaldo la salida
         # usar los datos de entrada
-
+        # generar diccionario de busqueda
+        q={}
+        q['modality']=str(ds.Modality)
+        DB=mwl_dbquery(q)
+        print("db len:" + str(len(DB)))
+        
         for st in DB:
+            print("._")
             # Check if C-CANCEL has been received
             if event.is_cancelled:
                 yield (0xFE00, None)
@@ -81,30 +88,34 @@ def handle_find(event):
             now = datetime.datetime.now()
             #--conditionals
             
-            if st['mod'] == ds.Modality and st['fecha']==now.strftime("%Y-%m-%d"):
+            if st['modality'] == ds.Modality and st['sch_study_date']==now.strftime("%Y%m%d"):
+                print("._ _")
+                print(st)
                 #print("biuld...")
                 #print(str(st['fecha']))
                 identifier = Dataset()
                 identifier.QueryRetrieveLevel = ds.QueryRetrieveLevel
-                identifier.PatientName =str(st['dicomname'])
-                identifier.AccessionNumber =str(st['AccessionNumber'])
+                #PAtient group
+                identifier.PatientName =str(st['patient_name'])
                 identifier.PatientSex=str(st['patient_sex'])
-                identifier.StudyDescription=str(st['procedure'])
-                #
-                identifier.StudyDate=str(st['fecha'].replace("-",''))
-                #identifier.PatientID =
-                identifier.Modality =str(st['mod'])
+                #identifier.PatientBirthDate='00000000'
+                #identifier.PatientBirthDate=str(st['patient_birth_date'])
+                identifier.PatientID=str(st['patient_id'])
+                #Study Level group
+                #identifier.StudyDescription=str(st['procedure'])
+                #identifier.StudyDate=str(st['sch_study_date'])
+                identifier.AccessionNumber =str(st['accession_number'])
+                #identifier.Modality =str(st['modality'])
+                # revisar identifier
+                print('._ _ _')
+                for elem in identifier:
+                    print(elem)
                 yield (0xFF00, identifier)
         yield(0x0000,NULL)
-
-def readdb():
-    #db=open('examenes.json',encoding="utf8",errors='ignore')
-    db=requests.get("https://www.ixian.cl/examenes.json")
-    return json.loads(db.text)
-
+        print("end of assciation")
 
 #Program
-DB=readdb()
+#DB=load_mwl()
 #print(str(len(DB))+" studios en db")
 #print(DB[0])
 
@@ -125,10 +136,13 @@ ae.add_supported_context(VerificationSOPClass)
 
 # Start listening for incoming association requests
 #get heroku port:S
-dicom_port = int(os.environ.get("PORT", CONF["port"] ))
+#
+# 
+# 
+# dicom_port = int(os.environ.get("PORT", CONF["port"] ))
 
-print("starting server "+ CONF['AEtitle']+" on port:"+str(dicom_port))
-ae.start_server((CONF["ip"], dicom_port), evt_handlers=handlers,ae_title=CONF['AEtitle'])
+print("starting server "+ CONF['AEtitle']+" on port:"+str(CONF['port']))
+ae.start_server((CONF["ip"], CONF['port']), evt_handlers=handlers,ae_title=CONF['AEtitle'])
 
 #init web interface
 #app = Flask(__name__)

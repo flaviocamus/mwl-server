@@ -14,7 +14,7 @@ import sys
 import mariadb
 
 #Sfrom flask import Flask
-#from subprocess import call
+from subprocess import run,Popen
 #configuration 
 from conf  import read_configuration
 
@@ -119,8 +119,9 @@ def handle_find(event):
 #print(str(len(DB))+" studios en db")
 #print(DB[0])
 
-#print("iniciar web interface")
-#call(["python.exe",'webinterface.py'])
+print("iniciar web interface")
+#inicia la interfaz web en flask en un subproceso diferente
+Popen([sys.executable, os.path.dirname(__file__)+'/webinterface.py'])
 
 
 #agregar handle para C-echo

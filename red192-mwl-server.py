@@ -22,11 +22,47 @@ from lifeapi import load_mwl,mwl_dbquery
 CONF=read_configuration()
 print(CONF)
 
+def get_cursor():
+    #devuelve un cursor de la base de datos
+    try:
+        conn = mariadb.connect(
+            user="mwlserver",
+            password="mwlserver",
+            host="127.0.0.1",
+            port=3306,
+            database="mwlserver"
+        )
+        #conn = mariadb.connect(user="mwlserver",password="mwlserver",host="127.0.0.1",port=3306,database="mwlserver")
+        #print("fine!")
+    except mariadb.Error as e:
+        print(f"Error connecting to MariaDB Platform: {e}")
+        return -1
+    cur = conn.cursor(buffered=True)
+    return cur
+
+
+#not in the aetitles list
+def aet_allowed(aet):
+    print("checking Aetitle ["+aet+"]...")
+    
+    cur = get_cursor() #objeto cursor de mariadb, buffered
+    sql="select modality from aetitles where AEtitle='"+aet+"'"
+    #sql="select * from aetitles"
+    print("sql: "+sql+"...")
+    cur.execute(sql)
+    if cur.rowcount==1:
+        print("Aettiel Allowed")
+        return cur.fetchall()[0][0]
+    else:
+        print("Aettitle not Allowed")
+        return False
+
 #echo
 def handle_echo(event):
     """Handle a C-ECHO request event."""
     print("C-ECHO received")
     ei=event.assoc
+    print(event.assoc.requestor.ae_title)
     #print(type(ei))
     for elem in ei:
         print(elem)
@@ -35,8 +71,22 @@ def handle_echo(event):
 
 # Implement the handler for evt.EVT_C_FIND
 def handle_find(event):
+    AEC=event.assoc.requestor.ae_title.decode()
+    #
+    mod_name=aet_allowed( AEC.rstrip() )
+    print('mod_name: '+mod_name)
+    if mod_name == False:
+        print("yield end, not in list")
+        yield (0xFE00, None)
+        return
+    print(mod_name)
     print("cfind fired")
-    print(str(event.assoc.requestor.ae_title))
+    #print(str(event.assoc.requestor.ae_title))
+    #peer=event.assoc.requestor.ae_title
+    print("checking client ["+ AEC.rstrip() +"]...")
+    #print(check_client(peer))
+    #print("end check")
+
     #    """Handle a C-FIND request event."""
     ds = event.identifier
     #print("Query:")
@@ -114,6 +164,28 @@ def handle_find(event):
         yield(0x0000,NULL)
         print("end of assciation")
 
+def check_client(aetitle):
+    """devuelve un dic t con los aetitles permitidos y su modalidad
+
+    """
+    try:
+        conn = mariadb.connect(
+            user="mwlserver",
+            password="mwlserver",
+            host="127.0.0.1",
+            port=3306,
+            database="mwlserver"
+        )
+        print("fine!")
+    except mariadb.Error as e:
+        print(f"Error connecting to MariaDB Platform: {e}")
+        return -1
+    cur = conn.cursor()
+    sql="select modality FROM `aetitlles` where state=1 and AEtitle='?'"
+    cur.execute(sql,(aetitle))
+    return cur[0]['modality']
+
+
 #Program
 #DB=load_mwl()
 #print(str(len(DB))+" studios en db")
@@ -122,8 +194,6 @@ def handle_find(event):
 print("iniciar web interface")
 #inicia la interfaz web en flask en un subproceso diferente
 Popen([sys.executable, os.path.dirname(__file__)+'/webinterface.py'])
-
-
 #agregar handle para C-echo
 handlers = [(evt.EVT_C_FIND, handle_find),(evt.EVT_C_ECHO, handle_echo)]
 
@@ -143,6 +213,7 @@ ae.add_supported_context(VerificationSOPClass)
 # dicom_port = int(os.environ.get("PORT", CONF["port"] ))
 
 print("starting server "+ CONF['AEtitle']+" on port:"+str(CONF['port']))
+
 ae.start_server((CONF["ip"], CONF['port']), evt_handlers=handlers,ae_title=CONF['AEtitle'])
 
 #init web interface
